@@ -26,7 +26,7 @@ export default function AboutPage() {
             </Link>
           </div>
           <div className="relative h-80 rounded-lg overflow-hidden">
-            <Image src="/placeholder.svg?height=400&width=600" alt="MGHL Players" fill className="object-cover" />
+            <Image src="/scs-players.jpg" alt="SCS Players" fill className="object-cover" />
           </div>
         </div>
 
@@ -43,7 +43,7 @@ export default function AboutPage() {
             <div className="bg-white dark:bg-gray-800 p-6 rounded-lg shadow-sm">
               <h3 className="text-xl font-semibold mb-3">Playoffs</h3>
               <p>
-                Top 8 teams qualify for the playoffs, competing in best-of-5 and best-of-7 series to determine the MGHL
+                Top 8 teams qualify for the playoffs, competing in best-of-5 and best-of-7 series to determine the SCS
                 champion.
               </p>
             </div>
@@ -64,22 +64,22 @@ export default function AboutPage() {
               {
                 name: "John Smith",
                 role: "League Commissioner",
-                image: "/placeholder.svg?height=200&width=200",
+                image: "/scs-staff-john.jpg",
               },
               {
                 name: "Sarah Johnson",
                 role: "Deputy Commissioner",
-                image: "/placeholder.svg?height=200&width=200",
+                image: "/scs-staff-sarah.jpg",
               },
               {
                 name: "Mike Williams",
                 role: "Player Relations",
-                image: "/placeholder.svg?height=200&width=200",
+                image: "/scs-staff-mike.jpg",
               },
               {
                 name: "Emily Davis",
                 role: "Media Director",
-                image: "/placeholder.svg?height=200&width=200",
+                image: "/scs-staff-emily.jpg",
               },
             ].map((staff, index) => (
               <div key={index} className="text-center">
@@ -100,10 +100,10 @@ export default function AboutPage() {
           </p>
           <div className="flex justify-center space-x-4">
             <Button variant="outline" asChild>
-              <Link href="mailto:info@mghl.com">Email Us</Link>
+              <Link href="mailto:info@scs-chel.com">Email Us</Link>
             </Button>
             <Button asChild>
-              <Link href="https://discord.gg/mghl">Join Our Discord</Link>
+              <Link href="https://discord.gg/scs">Join Our Discord</Link>
             </Button>
           </div>
         </div>
