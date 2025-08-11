@@ -6,23 +6,23 @@ import { Button } from "@/components/ui/button"
 export default function AboutPage() {
   return (
     <div className="container mx-auto px-4 py-8">
-      <PageHeader title="About MGHL" description="Learn about the Major Gaming Hockey League" />
+      <PageHeader title="About SCS" description="Learn about the Secret Chel Society" />
 
       <div className="mt-8 max-w-4xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mb-12">
           <div>
             <h2 className="text-3xl font-bold mb-4">Our Mission</h2>
             <p className="text-lg mb-4">
-              The Major Gaming Hockey League (MGHL) is dedicated to creating a competitive, fair, and enjoyable
+              The Secret Chel Society (SCS) is dedicated to creating a competitive, fair, and enjoyable
               environment for NHL gaming enthusiasts. We strive to build a community that values sportsmanship,
               teamwork, and skill development.
             </p>
             <p className="text-lg mb-6">
-              Founded in 2020, MGHL has grown to become one of the premier NHL gaming leagues, with players from across
+              Founded in 2024, SCS has grown to become one of the premier CHEL gaming leagues, with players from across
               North America and Europe competing at the highest level.
             </p>
             <Link href="/sign-up">
-              <Button size="lg">Join MGHL Today</Button>
+              <Button size="lg">Join SCS Today</Button>
             </Link>
           </div>
           <div className="relative h-80 rounded-lg overflow-hidden">
